@@ -1,0 +1,14 @@
+.principal__mensaje-DesEn{
+    display: none;
+    width: 100%;
+    font-size: 2rem;
+    border-width: 0;
+    height: 85%;
+    cursor: default;
+}
+/*Tablet*/
+@media(max-width:1200px) {
+    .principal__mensaje-DesEn{
+        height: 60%;
+    }
+}

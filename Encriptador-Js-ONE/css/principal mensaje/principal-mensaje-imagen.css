@@ -1,0 +1,12 @@
+.principal__mensaje-imagen {
+    width:100%;
+    padding-bottom: 7rem;
+}
+/*Tablet*/
+@media(max-width:1200px) {
+    .principal__mensaje-imagen{
+        width: 60%;
+        margin-left: 20%;
+        padding-bottom:2rem ;
+    }   
+}

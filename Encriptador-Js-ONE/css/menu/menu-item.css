@@ -1,0 +1,21 @@
+.menu__item{
+    list-style: none;
+    margin-right:3rem;
+    font-size: 2rem;
+}
+.menu__item a{
+    color: #000000;
+    text-decoration: none; 
+    font-weight: bold;
+}
+.menu__item a:hover{
+    color: #725c5c;
+    text-decoration: overline;
+}
+/*Cel*/
+@media(max-width:764px) {
+    .menu__item{
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }   
+}

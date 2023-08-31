@@ -1,0 +1,19 @@
+.texto-alura{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+.a{
+    width: 8%;
+    margin: 20px 46%;
+}
+/*Tablet*/
+@media(max-width:1200px) {
+    .texto-alura{
+        font-size: 2rem;
+    }      
+    .a{
+        width: 20%;
+        margin: 2rem 40%;
+    }
+}
